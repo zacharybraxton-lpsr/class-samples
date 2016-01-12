@@ -1,0 +1,53 @@
+print("Welcome to 8-Bitia where anything is possible! When your ready to start, type play!")
+
+start = raw_input()
+
+if start == "play":
+	print("Lets set up your character! What's your character's name?")
+
+name = raw_input()
+
+print("Okay " + name + ", now you get to choose what stats your player has,you oly get 15 to start with so choose wisely")
+
+print("How manypoints do you want in...")
+
+print("strength:")
+strength = int(raw_input())
+print("health:")
+health = int(raw_input())
+print("luck:")
+luck  = int(raw_input())
+
+if strength + health + luck > 15:
+	print("Your skills are unbalanced! All points are now reset to 5. Type finish to start your game ")
+	strength = 5
+	health = 5
+	luck = 5
+elif strength + health + luck < 15:
+	print("Your skills are unbalanced! All points are now reset to 5. Type finish to start your game ")
+        strength = 5
+        health = 5
+        luck = 5
+else:
+	print("Now that your skills are set type finish to start your game")
+
+print("You are sarhing the forrests of Arcadia looking for the lost treasure of worlds. You come to a fork in the road. Do you choose left or right")
+
+if choice == "left":
+	
+	if stren
+
+gth < 6 and health < 6:
+		print("There is a mountain in the road. You attempt to climb it but at the same time you trigger an avalanche! You didn't have enough health to handle the rocks and you didn't have enought strenth to punch the rock out of the way...GAME OVER"
+
+      	else:
+		
+			print("As you clmb up the mountain you trigger a massive avalance. As the rocks fall you punch them out of the way! When you get to the top, you realize the treasure of worlds was inside of you all along...YOU WIN!") 
+
+elif choice == "right":
+	if health > 4 and luck > 7:
+		print("You walk in to a mysterious cave on the right path only to find a raging Casino Dragon spewing green shamrock fire! Unfortunately your health wasn't high enought withstand the blast and Lady Luck was not on your side...GAME OVER")
+	
+	elif health >= 4 and luck >= 7:
+
+		print("You walk in to a mysterious cave on the right path only to find a raging Casino Dragon spewing green shamrock card decks! Luckily you went to the doctor earlier before this adventure and you ate a rabbits foot too(why, just why...). You caught the ace cards from each deck and throught them bck at the dragon draining his power which turned out to be the treasure of worlds...YOU WIN!")$

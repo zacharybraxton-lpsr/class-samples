@@ -1,0 +1,21 @@
+print("Welcome to PumaPix! Let's set up your que.")
+print("What are your 5 favorite shows?")
+print("When you are finished, type 'save'")
+show = raw_input()
+showX = []
+while show != "save":
+	print("Enter a show name:")
+	show = raw_input()
+	showX.append(show)
+print("Cool! Your current shows are:")
+	for showY in showX:
+		print(showY)
+	print("Now we are going to scroll through your list to see if you selected one of our 'lesser' titles.")
+	if showX == "CSI" or show == "NCIS":
+			showX.remove("CSI") 	
+showX.append("Breaking Bad")
+showX.append("Criminal Minds")
+print("We scanned your titles, removed some bad shows and added some good ones. Enjoy your new que! ") 
+for showZ in showX:
+	print(showZ)
+
